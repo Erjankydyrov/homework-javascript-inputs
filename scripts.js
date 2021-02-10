@@ -5,6 +5,9 @@ example1.addEventListener("keyup", function(event) {
     if (example1.value.length == 0) {
         text1.innerText = " ";
     }
+    if (example1.value.length > 5) {
+        text1.innerText = "good";
+    }
     
 });
 // example-1
