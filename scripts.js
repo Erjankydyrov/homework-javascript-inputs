@@ -11,7 +11,9 @@ example1.addEventListener("keyup", function(event) {
     if (example1.value.length > 10) {
         text1.innerText = "nice";
     }
-    
+    if (example1.value.length > 15) {
+        text1.innerText = "well done";
+    }
 });
 // example-1
 
